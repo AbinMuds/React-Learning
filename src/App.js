@@ -4,6 +4,8 @@ function App() {
   return (
     <div>
       <ExpenseItem />
+      <ExpenseItem />
+      <ExpenseItem />
     </div>
   );
 }
