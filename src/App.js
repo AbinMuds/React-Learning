@@ -1,9 +1,9 @@
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React Starting</h1>
-      </header>
+    <div>
+      <ExpenseItem />
     </div>
   );
 }
