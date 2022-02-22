@@ -10,7 +10,6 @@ function ExpenseForm(props) {
     //     enteredAmount = '',
     //     enteredDate =''
     // })
-
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value);
         // setUserInput({
@@ -70,6 +69,7 @@ function ExpenseForm(props) {
             </div>
         </div>
         <div className='new-expense__actions'>
+            <button onClick={props.onCancel} type="button">Cancel</button>
             <button type='submit'>Add Expense</button>
         </div>
     </form>
